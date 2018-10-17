@@ -1,10 +1,12 @@
 /* Add Course Specific css Below */
 :root {
-  --banner: #ce4f06;
-  --banner-text: #38726c;
-  --heading-color: #2e5266;
-  --subheading-color: #6e8898;
+  --banner: #6b2737;
+  --banner-text: #b1b695;
+  --heading-color: #233d4d;
+  --subheading-color: #dcab6b;
   --call-out-color: #e0ddcf;
+  --link: #52d1dc;
+  --visited: #3a959e;
 }
 html {
   /* background: -webkit-radial-gradient(ellipse, #87c6e0 0%, #00273a 100%) fixed;
@@ -24,34 +26,33 @@ h1 {
 }
 
 h2 {
-  color: #10808e;
+  color: var(--banner);
 }
 
 h3 {
-  color: #383838;
+  color: var(--subheading-color);
 }
 
 h4 {
-  color: #10808e;
+  color: var(--heading-color);
 }
 
 h5 {
-  color: #383838;
+  color: var(--subheading-color);
 }
 
-a {
-  color: #2d5d94;
-  border-bottom: 2px solid #2d5d94;
+a:link {
+  color: var(--link);
+  border-bottom: 1px solid var(--link);
 }
+a:visited {
+  color: var(--visited);
 
+  border-bottom: 1px solid var(--visited);
+}
 a:hover {
   color: #14304f;
-  border-bottom: 2px solid #14304f;
-}
-
-a:visited {
-  color: #14304f;
-  border-bottom: 2px solid #14304f;
+  border-bottom: 1px solid #14304f;
 }
 
 #content {
@@ -85,8 +86,8 @@ a:visited {
   padding: 0.3em;
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 20%,
     rgba(0, 0, 0, 0) 100%
   );
 }
@@ -109,7 +110,7 @@ a:visited {
   padding-top: 0.2em;
   margin-right: -0.2em;
 }
-.headerBanner h2 {
+.headerBanner h3 {
   align-self: flex-end;
   margin-right: 1.5em;
   margin-bottom: 5px;
