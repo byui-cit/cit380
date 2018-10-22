@@ -55,7 +55,7 @@ const menu = {
 };
 
 function getView(url) {
-  url = baseUrl + url;
+  url = localUrl + url;
   fetch(url).then(response => {
     response.text().then(partial => {
       var tmp = document.implementation.createHTMLDocument();
