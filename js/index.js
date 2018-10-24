@@ -4,53 +4,15 @@ const localUrl = '/';
 const menu = {
   resources: [
     { url: 'resources/syllabus.html', name: 'Syllabus' },
-    { url: 'resources/dryoarimages.html', name: 'DryOar Images' },
-    { url: 'resources/subpage_content.html', name: 'SubPage Content' },
-    { url: 'resources/design-principles.html', name: 'Design Principles' },
-    { url: 'resources/troubleshooting.html', name: 'Troubleshooting' },
-    { url: 'resources/optimizing-images.html', name: 'Image Optimization' }
+    { url: 'resources/w1-notes.html', name: 'W1 instructor notes' },
+    {
+      url: 'resources/course-overview.html',
+      name: 'Course Overview-Instructor'
+    }
   ],
   activites: [
-    { url: 'activities/software-setup.html', name: 'Software Setup', week: 1 },
-    { url: 'activities/aboutme.html', name: 'About Me/HTML Vocab', week: 1 },
-    { url: 'activities/site-planning.html', name: 'Site Planning', week: 2 },
-    { url: 'activities/cssvocab.html', name: 'CSS Vocab', week: 2 },
-    {
-      url: 'activities/1-getting-started.html',
-      name: 'Start the home page',
-      week: 3
-    },
-    { url: 'activities/2-adding-css.html', name: 'Adding CSS', week: 4 },
-    { url: 'activities/3-more-css.html', name: 'More CSS', week: 5 },
-    { url: 'activities/elevator-pitch.html', name: 'Elevator Pitch', week: 5 },
-    {
-      url: 'activities/css-positioning.html',
-      name: 'CSS Positioning',
-      week: 6
-    },
-
-    {
-      url: 'activities/4-final-touches.html',
-      name: 'Finishing Touches',
-      week: 7
-    },
-    {
-      url: 'activities/personal-site-plan.html',
-      name: 'Personal Site PLan',
-      week: 7
-    },
-    {
-      url: 'activities/your-own-wireframe.html',
-      name: 'Wireframing',
-      week: 8
-    },
-    {
-      url: 'activities/personal-site-content.html',
-      name: 'Personal Site Plan 2: Content',
-      week: 8
-    },
-    { url: 'activities/subpage1.html', name: 'Making a Subpage', week: 8 },
-    { url: 'activities/final.html', name: 'DryOar Final', week: 9 }
+    { url: 'activities/w1-overview.html', name: 'W01 Overview', week: 1 },
+    { url: 'activities/icebreaker.html', name: 'Icebreaker', week: 1 }
   ]
 };
 
