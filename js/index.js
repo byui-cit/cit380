@@ -5,14 +5,19 @@ const menu = {
   resources: [
     { url: 'resources/syllabus.html', name: 'Syllabus' },
     { url: 'resources/w1-notes.html', name: 'W1 instructor notes' },
+    { url: 'resources/w2-notes.html', name: 'W2 instructor notes' },
     {
       url: 'resources/course-overview.html',
       name: 'Course Overview-Instructor'
-    }
+    },
+    { url: 'resources/plan-c.html', name: 'Plan-C Details' },
+    { url: 'resources/plan-b.html', name: 'Plan-B Details' }
   ],
   activites: [
     { url: 'activities/w1-overview.html', name: 'W01 Overview', week: 1 },
-    { url: 'activities/icebreaker.html', name: 'Icebreaker', week: 1 }
+    { url: 'activities/icebreaker.html', name: 'Icebreaker', week: 1 },
+    { url: 'activities/pitch.html', name: 'The Pitch', week: 2 },
+    { url: 'activities/meal-plan.html', name: 'Meal Plan', week: 2 }
   ]
 };
 
