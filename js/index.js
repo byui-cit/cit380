@@ -10,8 +10,13 @@ const menu = {
       url: 'resources/course-overview.html',
       name: 'Course Overview-Instructor'
     },
-    { url: 'resources/plan-c.html', name: 'Plan-C Details' },
-    { url: 'resources/plan-b.html', name: 'Plan-B Details' }
+    { url: 'resources/plan-c.html', name: 'Structured Plan (3) Details' },
+    { url: 'resources/plan-b.html', name: 'Semi-structured Plan (2) Details' },
+    { url: 'resources/plan-a.html', name: 'Challenge Plan (1) Details' },
+    {
+      url: 'resources/creation.html',
+      name: 'Project management in the Creation'
+    }
   ],
   activites: [
     { url: 'activities/w1-overview.html', name: 'W01 Overview', week: 1 },
