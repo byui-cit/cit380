@@ -432,12 +432,18 @@ figcaption {
 }
 
 .gradeTable {
-  border: 2px solid #45818e;
-  max-width: 400px;
+  /* border: 2px solid #45818e; */
+  /* max-width: 80%; */
 }
 .gradeTable th {
-  background-color: #a2c4c9;
+  background-color: var(--subheading-color);
   text-align: center;
+}
+.gradeTable tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+.gradeTable tfoot td {
+  background-color: var(--subheading-color);
 }
 
 .gradescale {
